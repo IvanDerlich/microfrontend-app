@@ -1,0 +1,20 @@
+#ignore node_modules in all projects
+**/node_modules
+#ignore build output directories
+**/dist
+**/build
+#ignore log files
+*.log
+#ignore OS generated files
+.DS_Store
+Thumbs.db
+#ignore environment variable files
+*.env
+#ignore IDE specific files
+.vscode/
+.idea/
+#ignore coverage directories
+**/coverage
+#ignore temporary files
+*.tmp
+*.swp

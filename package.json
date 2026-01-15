@@ -1,0 +1,9 @@
+{
+  "name": "app2",
+  "version": "1.0.0",
+  "description": "Micro Frontend Application 2",
+  "private": true,
+  "scripts": {
+    "start": "pnpm --filter auth start & pnpm --filter marketing start & pnpm --filter dashboard start  & pnpm --filter container start"
+  }
+}
