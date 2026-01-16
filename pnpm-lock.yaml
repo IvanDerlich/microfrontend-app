@@ -196,6 +196,9 @@ importers:
 
   marketing:
     dependencies:
+      '@babel/runtime':
+        specifier: ^7.28.6
+        version: 7.28.6
       '@material-ui/core':
         specifier: ^4.11.0
         version: 4.12.4(@types/react@17.0.90)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
