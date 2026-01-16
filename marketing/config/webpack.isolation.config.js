@@ -2,8 +2,8 @@ const { merge } = require("webpack-merge");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const commonConfig = require("./webpack.common.js");
 
-const devConfig = {
-  mode: "development",
+const isolationConfig = {
+  mode: "isolation",
   devServer: {
     port: 8081,
     historyApiFallback: {
@@ -17,4 +17,4 @@ const devConfig = {
   ],
 };
 
-module.exports = merge(devConfig, commonConfig);
+module.exports = merge(isolationConfig, commonConfig);
